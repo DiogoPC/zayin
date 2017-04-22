@@ -1,81 +1,52 @@
-
 /*-----------------------------------------Inic ajust media--------------------------------------*/
 @media screen and (min-width: 2801px) and (max-width: 3500px) {
-
+.no_961{ display: none;}
 }
-
 @media screen and (min-width: 2561px) and (max-width: 2800px) {
-  
+.no_961{ display: none;}  
 }
-
 @media screen and (min-width: 2200px) and (max-width: 2560px) {
- 
+.no_961{ display: none;} 
 }
-
-
 @media screen and (min-width: 1889px) and (max-width: 2199px) {
- 
+.no_961{ display: none;} 
 }
-
-
-
 @media screen and (min-width: 1771px) and (max-width: 1888px) {
-
- }
-
-
+.no_961{ display: none;}
+}
 @media screen and (min-width: 1601px) and (max-width: 1770px) {
-
+.no_961{ display: none;}
 }
-
-
-
 @media screen and (max-width: 1600px) {
-
+.no_961{ display: none;}
 }
-
-
 @media screen and (min-width: 1441px) and (max-width: 1480px) {
- 
+.no_961{ display: none;}
 }
-
 @media screen and (max-width: 1440px) {
-
+.no_961{ display: none;}
 }
-
 @media screen and (min-width: 1371px) and (max-width: 1439px) {
-
+.no_961{ display: none;}
 }
-
 @media screen and (min-width: 1301px) and (max-width: 1370px) {
-  
+.no_961{ display: none;}
 }
-
-
 @media screen and (min-width: 1280px) and (max-width: 1300px) {
-  .no_961{ display: none;}
+.no_961{ display: none;}
 }
-
-
 @media screen and (min-width: 1200px) and (max-width: 1279px) {
- .no_961{ display: none;}
+.no_961{ display: none;}
 }
-
-
 @media screen and (min-width: 1025px) and (max-width: 1199px) {
-  .no_961{ display: none;}
+.no_961{ display: none;}
 }
-
-
-
 @media screen and (max-width: 1024px) {
 .no_961{ display: none;}
 }
-
 @media screen and (min-width: 992px) and (max-width: 1023px) {
- .no_961{ display: none;}
+.no_961{ display: none;}
 }
-
 @media screen and (min-width: 961px) and (max-width: 991px) {
 /*GERAL*/
 .titulo_gg{ font-size: 1.345em; line-height: 2.145rem;}
@@ -110,7 +81,7 @@
 .ajs_19{ margin: 0 9% 0;}
 .ajs_20{ margin: 0 10% 0;}
 .ajs_21{ margin: 0 10% 0;}
-.ajs_22{ margin: 5% 0 0;} 
+ margin: 5% 0 0; 
 }
 @media screen and (max-width: 960px) {
 /*GERAL*/
