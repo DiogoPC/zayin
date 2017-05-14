@@ -48,9 +48,21 @@
                 </ul>
             </div>
 
-             <a href="https://www.facebook.com/zayin.agencia.digital/" target="_new">
-               <i class="fa fa-facebook-square fa-2x cor_03 nophone no_facebook" aria-hidden="true"></i></a>
+            <div class="grid_6 ajust_84">    
+                <div class="grid_2">  
+                    <a href="https://www.facebook.com/zayin.agencia.digital/" target="_new">
+                    <i class="animated wow fadeInRight fa fa-facebook-square fa-2x cor_03 nophone no_facebook" aria-hidden="true"></i></a>
+                </div>
+                <div class="grid_2 ajust_82">          
+                    <a href="https://www.instagram.com/zayin.site/" target="_new">
+                    <i class="fa fa-instagram fa-2x cor_03" aria-hidden="true"></i></a> 
+                </div>
 
+                <div class="grid_2 ajust_83">       
+                    <a href="https://www.linkedin.com/company/zayin" target="_new">  
+                    <i class="fa fa-linkedin fa-2x cor_03" aria-hidden="true"></i></a>               
+                </div>
+            </div>
         </div><!--fin container-->
     </nav><!--/.Navbar-->
 
@@ -70,7 +82,7 @@
 
 <div class="conteudo_10">
   <div class="container_01">  
-   <div class="grid_14 ajust_38">
+   <div class="grid_6 ajust_38">
         <!--Naked Form-->
         <div class="card-block">
 
@@ -86,7 +98,7 @@
                     </div>
 
                     <div class="md-form">
-                        <input type="text" name="email" id="email" class="form-control" placeholder="email">
+                        <input type="text" name="email" id="email" class="form-control" placeholder="E-mail">
                     </div>
 
                     <div class="md-form">
@@ -99,20 +111,29 @@
 
                     <div class="text-center">
                         <button class="btn btn-default" type="submit">ENVIAR MENSAGEM</button>
-
-                        <!--div class="call">
-                            <br>
-                            <p>Or would you prefer to call?
-                                <br>
-                                <span><i class="fa fa-phone"> </i></span> + 01 234 565 280</p>
-                         </div-->
                     </div>
                 </form>
         </div>
         <!--Naked Form-->
      </div><!--fin ajust_14-->
 
- 
+   <div class="grid_7 ajust_77">
+        
+        <div class="grid_5 ajust_81">   
+            <p class="titulo_g cor_02">TELEFONE</p>
+            <p class="texto_02"> <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i> +55 31.97300-1458</p> <br><br>
+        </div>
+
+     <div class="grid_5 ajust_80"> 
+        <p class="titulo_g cor_02">E-MAIL</p>
+        <p class="texto_02"> <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i> contato@zayin.site</p> 
+     </div>
+
+      <div class="grid_5 ajust_78">
+          <img src="img/ij_03.png" alt="A Zayin está localizada em Belo Horiznte Minas Gerais, Brasil." />
+          <br><p class="cor_03 texto_02 ajust_79">BELO HORIZNTE - MG</p>  
+      </div>
+   </div>
 
   </div><!--fin container_01-->
 </div><!--fin conteudo_10--> 
@@ -121,7 +142,7 @@
 
     <footer class="page-footer center-on-small-only">
         <!--Footer Links-->
-        <div class="container-fluid">
+        <div class="container_01">
             <div class="row">
 
                 <!--First column-->
@@ -135,7 +156,7 @@
 
                 <!--Second column-->
                 <div class="col-lg-2 col-md-4 offset-lg-1 corrige_01">
-                    <p class="titulo_g"><u>Navegue</u></p>
+                    <p class="titulo_g"><strong>Navegue</strong></p>
                     <ul>
                         <li><a href="inicio" target="_top">Início</a></li>
                         <li><a href="#" target="_top">Blog</a></li>
@@ -149,7 +170,7 @@
                 <!--Fourth column-->
                   <div class="ajs_14">
                     <div class="col-lg-4 col-md-8 ver_991">
-                        <p class="titulo_g"><u>Acompanhe</u></p>
+                        <p class="titulo_g"><strong>Acompanhe</strong></p>
                         <br><br>
 
                         
@@ -183,6 +204,15 @@
     <script type="text/javascript" src="js/tether.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/mdb.min.js"></script>
+   
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'tagged',
+            clientId: 'd23b4efddf6f40128d11d7bee292da31'
+        });
+        feed.run();
+    </script>
+        
 
     <script>
        $('.carousel').carousel({

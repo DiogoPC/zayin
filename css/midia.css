@@ -37,6 +37,8 @@
 /*BLOG*/
 .ajs_23{ margin: 4% 0 0;}
 .ajust_75{ padding-bottom: 3%;}
+/*CONTATO*/
+.conteudo_12{ width: 100%; height: auto; background-image: url(../img/2.jpg);background-size: 10768px 7350px;background-position: 50% 0px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 }
 @media screen and (min-width: 1200px) and (max-width: 1279px) {
 .no_961{ display: none;}

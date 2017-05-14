@@ -1,135 +1,56 @@
 /* YOUR CUSTOM STYLES */
- /* TEMPLATE STYLES */
-        /* Necessary for full page carousel*/
-        
-        html,
-        body,
-        .view {
-            height: 100%;
-        }
-        /* Navigation*/
-        
-        .navbar {
-            background-color: transparent;
-            color: #333;
-        }
-        
-        .scrolling-navbar {
-            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-            transition: background .5s ease-in-out, padding .5s ease-in-out;
-        }
-        
-        .top-nav-collapse {
-            background-color: #fff;
-        }
-        
-        
-        footer.page-footer {
-            background-color: #2BBBAD;
-            margin-top: 0;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .navbar {
-                background-color: #4B515D;
-            }
-        }
-        /* Carousel*/
-        
-        .carousel,
-        .carousel-item,
-        .active {
-            height: 100%;
-        }
-        
-        .carousel-inner {
-            height: 100%;
-        }
+/* TEMPLATE STYLES */
+/* Necessary for full page carousel*/
 
-        
-        /*Caption*/
-        
-        .flex-center {
-            color: #fff;
-        }
-
-        .carousel-caption_01 {
-        position: absolute;
-        right: 15%;
-        bottom: 180px;
-        /*left: 10%;*/
-        right: 10%;
-        z-index: 10;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #fff;
-        text-align: center;
-        }
-        
-        @media (min-width: 776px) {
-            .carousel .view ul li {
-                display: inline;
-            }
-            .carousel .view .full-bg-img ul li .flex-item {
-                margin-bottom: 1.5rem;
-            }
-        }
-
-        video#videobg { 
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-        transform: translateX(-50%) translateY(-50%);
-        background: url('img/10.jpg') no-repeat;
-        background-size: cover;
-        transition: 1s opacity;
-        }
-
-
+html,body,.view {height: 100%;}
+/* Navigation*/
+.navbar {background-color: #fff;color: #333;}
+.scrolling-navbar {-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;transition: background .5s ease-in-out, padding .5s ease-in-out;}
+.top-nav-collapse {background-color: #fff;}
+footer.page-footer {background-color: #2BBBAD;margin-top: 0;}
+@media only screen and (max-width: 768px) {.navbar {background-color: #4B515D;}
+}
+/* Carousel*/
+.carousel,.carousel-item,.active {height: 100%;}
+.carousel-inner {height: 100%;}
+/*Caption*/
+.flex-center {color: #fff;}
+.carousel-caption_01 {position: absolute;right: 15%;bottom: 180px;/*left: 10%;*/right: 10%;z-index: 10;padding-top: 20px;padding-bottom: 20px;color: #fff;text-align: center;}
+@media (min-width: 776px) {
+.carousel .view ul li {display: inline;}
+.carousel .view .full-bg-img ul li .flex-item {margin-bottom: 1.5rem;}
+}
+video#videobg { position: fixed;top: 50%;left: 50%;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: -100;transform: translateX(-50%) translateY(-50%);background: url('img/10.jpg') no-repeat;background-size: cover;transition: 1s opacity;}
 /*-----------------SUB---------------*/
 .fa-2x{ font-size: 1.511em;}
 .fa-facebook-square{ color: #333;}
-
 .titulo_gg{font-family: 'Roboto', sans-serif; font-size: 2.065em; line-height: 2.945rem;}
 .titulo_g{font-family: 'Roboto', sans-serif; font-size: 1.465em; line-height: 1.945rem;}
 .texto_01{font-family: 'Roboto', sans-serif; font-size: 1.015em; line-height: 1.645rem;}
 .texto_02{font-family: 'Roboto', sans-serif; font-size: 1.015em; line-height: 1.445rem;}
 .texto_03{font-family: 'Roboto', sans-serif; font-size: 0.955em; line-height: 1.645rem;}
 p{ font-family: 'Roboto', sans-serif; font-size: 1.045em;}
-
 .bk_color_1{ background-color: #FFF;}
 .bk_color_2{ background-color: goldenrod;}
 .bk_color_3{ background-color: mediumpurple;}
 .bk_color_4{ background-color: #2BBBAD;}
-
 .cor_01{ color: #FFF;}
 .cor_02{ color: #2BBBAD;}
 .cor_03{ color: #9e9e9e;}
 .cor_04{ color: #666666;}
-
 .form3{ margin: 0 0 0;}
-
-
 .nav-item{ color: #333;}
-
 .al_01{ text-align: center;}
 .al_02{ text-align: justify;}
 .al_03{ text-align: left;}
 .al_04{ text-align: right;}
-
 .ajust_01{ margin: 0 12% 0;}
 .ajust_02{ margin: 3% 1% 0; padding-bottom: 3%;}
 .ajust_03{ margin: 2% 3.5% 0; padding-bottom: 3%;}
 .ajust_04{ margin: 6% 0 0; padding: 1.5%;}
 .ajust_05{ margin: 10% 6% 0;}
 .ajust_06{ margin: 0 1% 0;}
-.ajust_07{ margin: 0 70% 0;}
+.ajust_07{ margin: 0 90% 0;}
 .ajust_08{ margin: 2% 3.5% 0; padding-bottom: 3%;}
 .ajust_09{ margin: 3% 1% 0; padding-bottom: 3%;}/*disponivel*/
 .ajust_10{ margin: 2% 1% 0;}
@@ -205,137 +126,51 @@ p{ font-family: 'Roboto', sans-serif; font-size: 1.045em;}
 .ajust_73{ margin: 25% 12% 0;}
 .ajust_74{ margin: 3% 3% 0; padding-bottom: 3%;}
 .ajust_75{ margin: 2% 4% 0;}
+.ajust_76{ margin: 0 3% 0;}
+.ajust_77{ margin: 12% 8% 0;}
+.ajust_78{ margin: 10% 40% 0;}
+.ajust_79{ margin: 3% 0 0;}
+.ajust_80{ margin: 0 40% 0;}
+.ajust_81{ margin: 0 40% 0;}
+.ajust_82{ margin: 0 1.5% 0;}
+.ajust_83{ margin: 0 1.5% 0;}
+.ajust_84{ margin: 0 14% 0;}
+.ajust_85{ margin: 10% 10% 0;}
+.ajust_86{ margin: 0 10% 0;}
+.ajust_87{ margin: 0 0 0;}
+.ajust_88{ margin: 15% 0 0;}
+.ajust_89{ margin: 3% 0 0;}
 
-
-
-
-.cont_lg{ width: 17%; height: auto; margin: 0 0 0;}
-
-
-
-.conteudo_1{ width: 100%; height: auto; 
-    background-image: url(../img/20.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% 0px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
- .conteudo_2{ width: 100%; height: auto; background-color: #fff;}
-
- .conteudo_3{ width: 100%; height: auto; 
-    background-image: url(../img/8.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -250px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
+.cont_lg{ width: 30%; height: auto; margin: 0 0 0;}
+.conteudo_1{ width: 100%; height: auto; background-image: url(../img/20.jpg);background-size: 10768px 7350px;background-position: 50% 0px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.conteudo_2{ width: 100%; height: auto; background-color: #fff;}
+.conteudo_3{ width: 100%; height: auto; background-image: url(../img/8.jpg);background-size: 10768px 7350px;background-position: 50% -250px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 .conteudo_4{ width: 100%; height: auto; background-color: #e8195a;}
 .conteudo_5{ width: 100%; height: auto; background-color: #fff;}
-
-
- .conteudo_6{ width: 100%; height: auto; background-color: #fff;}
-
-
- .conteudo_7{ width: 100%; height: auto; 
-    background-image: url(../img/36.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% 0px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
- .conteudo_8{ width: 100%; height: auto; background-color: #fff;}
-
-
- .conteudo_9{ width: 100%; height: auto; 
-    background-image: url(../img/44.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -58px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
- .conteudo_10{ width: 100%; height: auto; background-color: #fff;}
- .conteudo_11{ width: 100%; height: auto; background-color: #fff;}
-
-  .conteudo_12{ width: 100%; height: auto; 
-    background-image: url(../img/2.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -58px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
-
+.conteudo_6{ width: 100%; height: auto; background-color: #fff;}
+.conteudo_7{ width: 100%; height: auto; background-image: url(../img/36.jpg);background-size: 10768px 7350px;background-position: 50% 0px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.conteudo_8{ width: 100%; height: auto; background-color: #fff;}
+.conteudo_9{ width: 100%; height: auto; 
+background-image: url(../img/44.jpg);background-size: 10768px 7350px;background-position: 50% -58px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.conteudo_10{ width: 100%; height: auto; background-color: #fff;}
+.conteudo_11{ width: 100%; height: auto; background-color: #fff;}
+.conteudo_12{ width: 100%; height: auto; background-image: url(../img/2.jpg);background-size: 10768px 7350px;background-position: 50% -58px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 .mm{ width: 100%; height: 450px; margin: 0 0 0;}
-
 .conteudo_13{ width: 100%; height: auto;}
 .conteudo_14{ width: 100%; height: auto; background-color: #fff;}
-
-
- .conteudo_15{ width: 100%; height: auto; 
-    background-image: url(../img/44.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -58px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
+.conteudo_15{ width: 100%; height: auto; background-image: url(../img/44.jpg);background-size: 10768px 7350px;background-position: 50% -58px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; }
 .conteudo_16{ width: 100%; height: auto; background-color: #fff;}
-
- .conteudo_17{ width: 100%; height: auto; 
-    background-image: url(../img/20.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -58px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
+.conteudo_17{ width: 100%; height: auto; background-image: url(../img/20.jpg);background-size: 10768px 7350px;background-position: 50% -58px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
 .conteudo_18{ width: 100%; height: auto; background-color: #fff;}
 .conteudo_19{ width: 100%; height: auto; background-color: #333;}
 .conteudo_20{ width: 100%; height: auto; background-color: #fff;}
 .conteudo_21{ width: 100%; height: auto; background-color: #fff;}
-
-.conteudo_22{ width: 100%; height: auto; 
-    background-image: url(../img/3.jpg);
-    background-size: 10768px 7350px;
-    background-position: 50% -210px;
-    
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-      background-size: cover;
- }
-
- .conteudo_23{ width: 100%; height: auto; background-color: #fff;}
-
+.conteudo_22{ width: 100%; height: auto; background-image: url(../img/3.jpg);background-size: 10768px 7350px;background-position: 50% -210px;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.conteudo_23{ width: 100%; height: auto; background-color: #fff;}
 .icone_01{ width: 18%;}
 .icone_02{ width: 80%;}
 .icone_03{ width: 75%}
-
-
+.icone_04{ width: 55%}
 /**** CONFIGURACAO GRID SITE ****/
 .grid_1   { width: 5.405%;   /* 80px    /  1480px =  0,0677966101694915% */ }
 .grid_2   { width: 12.162%;  /* 180px   /  1480px =  0,0677966101694915% */ }
@@ -374,4 +209,3 @@ p{ font-family: 'Roboto', sans-serif; font-size: 1.045em;}
 .grid_15 { margin-right:0.041%;	margin-bottom:.041%; float: left; display: block;}
 
 img, object { max-width: 100%; min-width: 100%; height: auto; }
-
