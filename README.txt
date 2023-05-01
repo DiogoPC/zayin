@@ -1,6 +1,6 @@
 Zayin Agência Digital 
 
-contato@zayin.site
+contato@zayin.dev.br
 +55 31 9 9409-5168
 
 -----------------------------------
